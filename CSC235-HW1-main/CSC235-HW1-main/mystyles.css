@@ -18,10 +18,12 @@
 	table {border-collapse: collapse; }
 	
 	/*Row 3 (Left)*/
-	td.d { background-color: #eab8c3; padding-right: 20px; }
+	td.d { background-color: #eab8c3; padding: 25px; padding-right: 40px;}
 	
 	/*Row 3 (Right)*/
 	td.e {padding-left: 40px; }
+	
+	td.f {border: 3px dotted red;}
 	
 	
 /*TEXT*/
@@ -41,7 +43,7 @@
 	span.a { color: blue; }
 	
 	/*Heading 1*/
-	h1.a { font-family: 'Gordon', Arial; font-size: ; }
+	span.b { font-family: 'Spartan'; font-size: 20pt; }
 	
 	/*Heading 2*/
-	h2.a { font=family: ; font-size: ; }
+	span.c { font=family: ; font-size: 15pt; }
