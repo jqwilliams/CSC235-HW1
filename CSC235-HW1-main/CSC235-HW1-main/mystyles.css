@@ -1,53 +1,118 @@
 
-
 /*IMAGES*/
-	/*Butterfly World Logo*/
-	img.a { width: 200px; }
+img.logo 
+{ 
+	width: 200px; 
+}
+img.butterfly 
+{
+	width: ; 
+	border: 3px solid #e935dd; 
+}
+img.conservatory 
+{	
+	width: 400px; 
+	border: 3px solid #dcc7c7
+}
+img.footer 
+{ 
+	width: 
+}
 
-	/*Butterfly Closeups*/
-	img.b { width: ; border: 3px solid #e935dd; }
-
-	/*Conservatory*/
-	img.c { width: 400px; border: 3px solid #dcc7c7}
-
-	/*Footer*/
-	img.d { width: }
-/**/
 
 
+/*TITLE STYLES*/
+td.header 
+{ 
+	color: #980b71; 
+	font-family: 'Lucida Sans', Arial; 
+	font-style: italic; font-size: 20pt; 
+	text-shadow: 2px 8px 7px #4e7bce; 
+}
+span.title1 
+{ 
+	font-family: 'Spartan'; 
+	font-size: 20pt; 
+}
+
+/*Title 2*/
+span.title2 
+{ 
+	font-family: ; 
+	font-size: 15pt; 
+	text-decoration: overline; 
+}
 
 
-	table {border-collapse: collapse; }
-	
-	
-	/*'Where thousands of butterflies take flight'*/
-	td.a { color: #980b71; font-family: 'Lucida Sans', Arial ; font-style: italic; font-size: 20pt; text-shadow: 2px 8px 7px #4e7bce; }
-	
-	/*Row 2 (Buttons)*/
-		td.home { font-family: 'Arial'; color: #c0be76; background-color: #28336b; width:7em; 
-				text-align:center; border-left: 3px solid black; border-right: 3px solid black; 
-				padding: 10px; font-size: 10pt; }
-		td.b { font-family: 'Arial'; color: #eaebf1; background-color: #7d83a5; width:7em; 
-			text-align:center; border-right: 3px solid black; font-size: 10pt; padding: 10px; }
-		td.c { background-color: #72789a; width:7em; }
-	
-	/*Row 3 (Left)*/
-		td.d { background-color: #eab8c3; background-image: 
-		linear-gradient(to top, rgba(193,119,177,0) 90%, rgba(193,119,177,1)); }
-	/*Row 3 (Right)*/
-		td.e {padding-left: 40px; background-image: 
-		linear-gradient(to top, rgba(240,223,178,0) 90%, rgba(240,223,178,1)); }
-	
-	/*Butterfly Dotted Boxes*/
-		td.f {border: 2px dotted #a26266; padding: 10px; padding-left: 15px; padding-right: 15px; padding-bottom: 18px; }
-	
-	/*Text Highlight Colors*/
-	span.blue { color: blue; }
-	span.brown { color: ; }
-	span.username {font-family: 'Courier New'; font-style: bold; font-size: 10pt; }
-	
-	/*Heading 1*/
-	span.b { font-family: 'Spartan'; font-size: 20pt; }
-	
-	/*Heading 2*/
-	span.c { font=family: ; font-size: 15pt; }
+
+/*BUTTONS*/
+table 
+{
+	border-collapse: collapse; 
+}
+td.home_button 
+{ 
+	font-family: 'Arial'; 
+	color: #c0be76; 
+	background-color: #28336b; 
+	width:7em; 
+	text-align:center; 
+	border-left: 3px solid black; 
+	border-right: 3px solid black; 
+	padding: 10px; font-size: 10pt; 
+}
+td.button 
+{ 
+	font-family: 'Arial'; 
+	color: #eaebf1; 
+	background-color: #7d83a5; 
+	width:7em; 
+	text-align:center; 
+	border-right: 3px solid black; 
+	font-size: 10pt; 
+	padding: 10px; 
+}
+td.blank_button 
+{ 
+	background-color: #72789a; 
+	width:7em; 
+}
+
+
+
+/*MAIN COLUMNS*/
+td.main_left 
+{ 
+	background-color: #eab8c3; 
+	background-image: linear-gradient(to top, rgba(193,119,177,0) 90%, rgba(193,119,177,1)); 
+}
+td.spotlight 
+{
+	border: 2px dotted #a26266; 
+	padding: 10px; padding-left: 15px; 
+	padding-right: 15px; 
+	padding-bottom: 18px; 
+}
+td.main_right 
+{
+	padding-left: 40px; 
+	background-image: linear-gradient(to top, rgba(240,223,178,0) 90%, rgba(240,223,178,1)); 
+}
+
+
+
+/*BODY TEXT STYLES*/
+span.blue 
+{ 
+	color: blue; 
+}
+span.brown 
+{ 
+	color: ; 
+}
+span.username 
+{
+	font-family: 'Courier New'; 
+	font-style: bold; 
+	font-size: 10pt; 
+}
