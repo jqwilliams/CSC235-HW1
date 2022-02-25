@@ -32,14 +32,18 @@ td.header
 }
 p.title1 
 { 
-	font-family: 'Spartan'; 
-	font-size: 20pt; 
+	font-family: 'Arial'; 
+	font-size: 12pt;
+	letter-spacing: 2px;
+	text-transform: uppercase;
 }
 p.title2 
 { 
-	font-family: ; 
-	font-size: 15pt; 
-	text-decoration: overline; 
+	font-family: 'Arial'; 
+	font-size: 10pt; 
+	font-weight: bold;
+	text-decoration: overline;
+	text-transform: uppercase;
 }
 
 
@@ -102,6 +106,15 @@ td.main_right
 	padding-left: 40px; 
 	background-image: linear-gradient(to top, rgba(240,223,178,0) 90%, rgba(240,223,178,1)); 
 }
+td.contact_us
+{
+	border-radius: 15px;
+	width: 150px;
+	padding-left: 30px;
+	padding-left: 30px;
+	padding-top: 20px;
+	background: #ddddff;
+}
 
 
 
@@ -113,7 +126,7 @@ span.blue
 }
 span.brown 
 { 
-	color: ; 
+	color: #7e5b4e; 
 	font-weight: bold;
 }
 span.username 
@@ -121,4 +134,36 @@ span.username
 	font-family: 'Courier New'; 
 	font-weight: bold; 
 	font-size: 10pt; 
+}
+span.date_posted
+{
+	color: #9b9b9b;
+}
+span.link1
+{
+	color: #4c8acf;
+	text-decoration: underline;
+}
+span.link2
+{
+	color: #a6a9ba;
+	font-style: italic;
+	text-decoration: underline;
+}
+span.bold
+{
+	font-weight: bold;
+}
+
+
+
+
+/*FOOTER*/
+td.footer
+{
+	color: #a7ae15;
+	font-family: 'Arial';
+	font-size: 10pt;
+	background-image: url("footer.jpg");
+	padding: 15px;
 }
