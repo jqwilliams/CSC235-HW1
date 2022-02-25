@@ -26,17 +26,16 @@ td.header
 { 
 	color: #980b71; 
 	font-family: 'Lucida Sans', Arial; 
-	font-style: italic; font-size: 20pt; 
+	font-style: italic; 
+	font-size: 20pt; 
 	text-shadow: 2px 8px 7px #4e7bce; 
 }
-span.title1 
+p.title1 
 { 
 	font-family: 'Spartan'; 
 	font-size: 20pt; 
 }
-
-/*Title 2*/
-span.title2 
+p.title2 
 { 
 	font-family: ; 
 	font-size: 15pt; 
@@ -52,24 +51,25 @@ table
 }
 td.home_button 
 { 
+	text-align:center;
 	font-family: 'Arial'; 
+	font-size: 10pt;	
 	color: #c0be76; 
 	background-color: #28336b; 
-	width:7em; 
-	text-align:center; 
+	width:7em;  
 	border-left: 3px solid black; 
 	border-right: 3px solid black; 
-	padding: 10px; font-size: 10pt; 
+	padding: 10px; 
 }
 td.button 
 { 
-	font-family: 'Arial'; 
+	text-align:center;
+	font-family: 'Arial';
+	font-size: 10pt;
 	color: #eaebf1; 
 	background-color: #7d83a5; 
-	width:7em; 
-	text-align:center; 
-	border-right: 3px solid black; 
-	font-size: 10pt; 
+	width:7em;  
+	border-right: 3px solid black;  
 	padding: 10px; 
 }
 td.blank_button 
@@ -86,12 +86,16 @@ td.main_left
 	background-color: #eab8c3; 
 	background-image: linear-gradient(to top, rgba(193,119,177,0) 90%, rgba(193,119,177,1)); 
 }
+td.showcase
+{
+	padding-left: 20px;
+	padding-right: 20px;
+}
 td.spotlight 
 {
-	border: 2px dotted #a26266; 
-	padding: 10px; padding-left: 15px; 
-	padding-right: 15px; 
-	padding-bottom: 18px; 
+	border: 2px dotted #a26266;  
+	padding-left: 20px; 
+	padding-right: 20px;  
 }
 td.main_right 
 {
@@ -104,15 +108,17 @@ td.main_right
 /*BODY TEXT STYLES*/
 span.blue 
 { 
-	color: blue; 
+	color: blue;
+	font-weight: bold;
 }
 span.brown 
 { 
 	color: ; 
+	font-weight: bold;
 }
 span.username 
 {
 	font-family: 'Courier New'; 
-	font-style: bold; 
+	font-weight: bold; 
 	font-size: 10pt; 
 }
