@@ -79,7 +79,8 @@ td.button
 td.blank_button 
 { 
 	background-color: #72789a; 
-	width:7em; 
+	width:7em;
+	padding-right: 20px;
 }
 
 
@@ -93,7 +94,7 @@ td.main_left
 td.showcase
 {
 	padding-left: 20px;
-	padding-right: 20px;
+	padding-right: 30px;
 }
 td.spotlight 
 {
@@ -103,7 +104,7 @@ td.spotlight
 }
 td.main_right 
 {
-	padding-left: 40px; 
+	padding-left: 55px;
 	background-image: linear-gradient(to top, rgba(240,223,178,0) 90%, rgba(240,223,178,1)); 
 }
 td.contact_us
@@ -111,8 +112,9 @@ td.contact_us
 	border-radius: 15px;
 	width: 150px;
 	padding-left: 30px;
-	padding-left: 30px;
+	padding-right: 20px;
 	padding-top: 20px;
+	padding-bottom: 8px;
 	background: #ddddff;
 }
 
