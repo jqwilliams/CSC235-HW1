@@ -90,6 +90,7 @@ td.main_left
 { 
 	background-color: #eab8c3; 
 	background-image: linear-gradient(to top, rgba(193,119,177,0) 90%, rgba(193,119,177,1)); 
+	vertical-align: top;
 }
 td.showcase
 {
@@ -105,7 +106,8 @@ td.spotlight
 td.main_right 
 {
 	padding-left: 55px;
-	background-image: linear-gradient(to top, rgba(240,223,178,0) 90%, rgba(240,223,178,1)); 
+	background-image: linear-gradient(to top, rgba(240,223,178,0) 90%, rgba(240,223,178,1));
+	vertical-align: top;
 }
 td.contact_us
 {
