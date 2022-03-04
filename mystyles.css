@@ -14,10 +14,6 @@ img.conservatory
 	width: 400px; 
 	border: 3px solid #dcc7c7
 }
-img.footer 
-{ 
-	width: 
-}
 
 
 
@@ -169,5 +165,6 @@ td.footer
 	font-family: 'Arial';
 	font-size: 10pt;
 	background-image: url("footer.jpg");
+	background-repeat: no-repeat;
 	padding: 15px;
 }
